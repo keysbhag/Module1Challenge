@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* tags are ordered by universal -> element -> class -> id attributes. Footer attributes are on the bottom */
+
 a {
     color: #ffffff;
     text-decoration: none;
