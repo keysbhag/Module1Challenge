@@ -31,6 +31,11 @@ This is what the following webpage looks like:
 ![Large overview of Horiseon website](assets/images/demo.png)
 
 
+## Deployed Application:
+
+Check out the live page at: https://keysbhag.github.io/Module1Challenge/
+
+
 ## Credits
 
 Keyshawn Bhagwandin
