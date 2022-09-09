@@ -40,7 +40,7 @@ nav {
     font-size: 20px;
     list-style-type: none;
 }
-
+/* navigation bar list items only take up the size of its contents and have a margin space between them */
 nav li {
     display: inline-block;
     margin-left: 25px;
@@ -134,7 +134,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Re-sizes h2 tag in the footer */
 footer h2 {
     font-size: 20px;
 }

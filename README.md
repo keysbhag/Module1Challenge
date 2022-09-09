@@ -1,8 +1,9 @@
-# Bootcamp Study Guide
+# Horiseon Main Page Refactor
 
 ## Description
 
-My motivation for making this project was to make a good study guide for me and others so that when I am working on projects in the bootcamp, I have notes to refer to if I ever get stuck. I built this project to help supplement my learning in this bootcamp as a place of referral so that I can solve problems when I get lost. It solves the problem of needing a place to go back and refresh your memory when you forget how to do an earlier task. It is also a fun creative way to make notes as we go through this experience. The most important thing I learned from this project was how to use Git, as I had no prior experience with it. It taught me how to think through problems when trying to connect with Git and setting up important features like, the SSH keys. It helped me get even more comfortable with CLA. 
+The motivation for this project was to refactor a pre-existing webpage's HTML and CSS format so that it is more accessible for people with disabilities, who need assistive devices such as screen readers to get information from a page. We also wanted to optimize SEO for the webpage so that it can be found more easily.
+With the refactoring of the HTML code, we achieve the goals above but, by also consolidating the CSS and adding comments, we help any future developers who view this webpage's code and, want make changes or add more features. Through this process, I've learned that you should be mindful of how you structure and label your code as you develop it and make sure that there is a way that it can be accessible to everyone. 
 
 
 ## Installation
@@ -11,7 +12,13 @@ N/A
 
 ## Usage
 
-The way to use this webpage is to refer to it whenever you need to refresh your knowledge on Git, HTML, CSS or JavaScript. On the page itself there is 4 subheadings, one for each of the subjects listed before. You can look at the subheading you need information on and read the notes. If you open the DevTools (by right clicking and clicking "inspect") you'll see all the JavaScript features, which lists all the topics that was learned, and a suggestion of what you should study.
+The way to use this webpage is to look at it as a template for how to structure your HTML and CSS code so that it benefits all users and developers.
+
+## Demo
+
+This is what the following webpage looks like:
+
+![Large overview of Horiseon website](assets/images/demo.png)
 
 
 ## Credits
@@ -19,7 +26,7 @@ The way to use this webpage is to refer to it whenever you need to refresh your 
 N/A
 
 ## License
+N/A
 
-Please refer to the LICENSE in the repo.
-
-ADD a Demo!
+---
+© 2022 Keysbhag. brand. Confidential and Proprietary. All Rights Reserved.
