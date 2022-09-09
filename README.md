@@ -18,6 +18,8 @@ The motivation for this project was to refactor a pre-existing webpage's HTML an
 
 * Condensed CSS attributes for more robust and understandable code
 
+* Made sure all links were working properly and redirecting to the right location
+
 
 ## Usage
 
