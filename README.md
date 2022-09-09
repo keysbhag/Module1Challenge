@@ -29,4 +29,4 @@ N/A
 N/A
 
 ---
-© 2022 Keysbhag. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Keysbhag. Confidential and Proprietary. All Rights Reserved.
