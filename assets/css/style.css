@@ -1,20 +1,20 @@
+/* Universal attributes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* tags are ordered by universal -> element -> class -> id attributes. Footer attributes are on the bottom */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* Attributes used through out webpage */
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* Attributes used within the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,18 +27,9 @@ h1 {
     font-size: 48px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-main {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 nav {
@@ -54,30 +45,31 @@ nav li {
     display: inline-block;
     margin-left: 25px;
 }
-
-p {
-    font-size: 16px;
+/* Used as a background picture under the header section */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #2589bd;
+/* Used to change the "Horiseon" logo design  */
+#seo {
+    color: #d9dcd6;
 }
 
-.benefits-article {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Attributes used within the main tags */
+
+/* Attributes within "content" section */
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .content {
@@ -108,19 +100,34 @@ p {
     margin-left: 25px;
 }
 
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+/* Attributes within "benefits" section */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-#seo {
-    color: #d9dcd6;
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
 }
 
+.benefits-article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer attributes */
 footer {
     padding: 30px;
     clear: both;
